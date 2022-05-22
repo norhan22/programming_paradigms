@@ -9,17 +9,20 @@ var sum = x+y ;
 console.log(sum)
 
 
-// OOP ( Object Oriented  Programming) Paradigm
+// OOP ( Object-Oriented  Programming) Paradigm
 class SUM {
-    constructor() {
-        this.x= 1
-        this.y = 2
+    constructor(x,y) {
+        this.x= x
+        this.y = y
     }
-    get sum (){
+    get result (){
         return this.x + this.y
     }
 
 }
 
+console.log( new SUM(1,2).result())
+
 // Functional paradigm
 var sum = (x,y)=> x+y
+console.log(sum)

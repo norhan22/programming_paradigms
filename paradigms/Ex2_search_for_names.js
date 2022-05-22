@@ -9,7 +9,10 @@ var result=''
 // Imperative Paradigm
 for(let i = 0 ;i<students.length;i++){
     const student = students[i]
-    if(student.id === targetId) result= student.name
+    if(student.id === targetId) {
+        result = student.name;
+        break;
+    }
 }
 
 // OOP ( Object-Oriented  Programming) Paradigm
@@ -27,3 +30,4 @@ result = new getStudent(students,targetId).student
 
 // Functional paradigm
 result = students.find((s)=>s.id === targetId)?.name || ''
+
