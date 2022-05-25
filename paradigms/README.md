@@ -7,6 +7,9 @@
 - 
 ### The types :
 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/1-344.png"/>
+
 - **Imperative** :
+
 - **Declarative** :
 
