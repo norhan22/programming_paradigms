@@ -9,7 +9,7 @@
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/1-344.png"/>
 
-1. **Imperative** :
+1. **Imperative**  :
   - It is one of the oldest programming paradigm
   - It features close relation to machine architecture
   - It is based on Von Neumann architecture 
